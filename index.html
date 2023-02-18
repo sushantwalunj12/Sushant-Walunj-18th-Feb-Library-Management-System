@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushant Walunj 18th Feb Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="container">
+        <h1>Library Management System</h1>
+        <label for="book-name">Book Name</label>
+        <input type="text" id="bookName" name="book-name"><br><br>
+        <label for="issued-to">Issued To</label>
+        <input type="text" id="issued-to" name="issued-to"><br><br>
+        <button type="submit">Issue Book</button><br>
+        <table id="book-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Book Name</th>
+            <th>Issued To</th>
+            <th>Issue Date and Time </th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="book-list">
+        </tbody>
+      </table>
+    </div>                            
+      <script src="script.js"></script>
+</body>
+</html>

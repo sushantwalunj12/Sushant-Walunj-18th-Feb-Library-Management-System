@@ -1,0 +1,45 @@
+*{
+  background-color: black;
+  color: white;
+}
+.container{
+  margin: 100px 100px;
+}
+input{
+  width: 300px;
+  margin: 8px;
+  padding: 8px;
+  border-color: white;
+}
+#bookName{
+  margin-left: 20px;
+}
+#issued-to{
+  margin-left: 35px;
+
+}
+button{
+  background-color: white;
+  width: 420px;
+  color: black;
+  height: 35px;
+  cursor: pointer;
+}
+table{
+  margin-top: 50px;
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: 100%;
+  overflow: scroll;
+}
+table tr{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  text-align: center;
+
+}
+
+table th,td{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
